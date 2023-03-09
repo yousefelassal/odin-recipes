@@ -1,11 +1,18 @@
 body {
-    background-image: url(https://egyptianstreets.com/wp-content/uploads/2021/09/Egyptian-Koshari-in-a-Plate-800x530.png);
     font-family: 'Open Sans', sans-serif;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
-  
+
+  .koshary {
+    background-image: url(https://egyptianstreets.com/wp-content/uploads/2021/09/Egyptian-Koshari-in-a-Plate-800x530.png);
+  }
+
+.molokheya{
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Molokheya_Egypt%2C_2012.JPG/1200px-Molokheya_Egypt%2C_2012.JPG);
+}
+
   h1 {
     font-size: 40px;
     margin-top: 0;
