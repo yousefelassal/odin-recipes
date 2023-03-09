@@ -23,7 +23,7 @@ body, html{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 16px;
+    gap: 40px;
     max-width: 1400px;
     margin: 0 auto;
     padding: 20px 10px;
@@ -45,4 +45,19 @@ body, html{
 .gallery img:hover{
     -webkit-transform: scale(1.3);
 	transform: scale(1.3);
+}
+
+.gallery p{
+    font-family: "Open Sans", sans-serif;
+    margin:-2px;
+}
+
+.gallery a:link, .gallery a:visited, .gallery a:hover, .gallery a:active {
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+
+.gallery a:hover {
+    color: purple;
 }
