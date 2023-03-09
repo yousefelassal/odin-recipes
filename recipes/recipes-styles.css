@@ -34,21 +34,19 @@ body {
   }
 
   .image {
-    width: 11em;
-    height: 11em;
-    border-radius: 50%;
-    border: 0.6em double white;
-    background: linear-gradient(to bottom, white, black);
-    background-size: cover;
-    box-shadow: 0 0 0px black;
+    position:fixed;
+    object-fit: cover;
+    width: 5em;
+    height: 5em;
     animation: expand 1s forwards, Down 0.75s 0.5s forwards, Up 1s 0.9s forwards;
-    transform: scale(0.01);
     transition: 0.3s;
+    margin: 0 auto;
+
 }
 
 .image:hover {
-  height: 11.5em;
-  width: 11.5em;
+  height: 20.5em;
+  width: 20.5em;
 }
   hr {
     height: 2px;
