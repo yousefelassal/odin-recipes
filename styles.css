@@ -35,4 +35,14 @@ body, html{
     height: 300px;
     object-fit: cover;
     border-radius: 10px;
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+    cursor: pointer;
+}
+
+.gallery img:hover{
+    -webkit-transform: scale(1.3);
+	transform: scale(1.3);
 }
