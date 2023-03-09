@@ -1,0 +1,115 @@
+body {
+    background-image: url(https://egyptianstreets.com/wp-content/uploads/2021/09/Egyptian-Koshari-in-a-Plate-800x530.png);
+    font-family: 'Open Sans', sans-serif;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  h1 {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+  
+  h2 {
+    font-size: 30px;
+  }
+  
+  .subheading {
+    font-style: italic;
+  }
+  
+  h1, h2, p {
+    text-align: center;
+  }
+  
+  .menu {
+    width: 80%;
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+  }
+
+  .image {
+    position: absolute;
+    object-fit: cover;
+    z-index: 2;
+    top: 17em;
+    width: 11em;
+    height: 11em;
+    border-radius: 50%;
+    border: 0.6em double white;
+    background: linear-gradient(to bottom, white, black);
+    background-size: cover;
+    background-origin: border-box;
+    box-shadow: 0 0 0px black;
+    animation: expand 1s forwards, Down 0.75s 0.5s forwards, Up 1s 0.9s forwards;
+    transform: scale(0.01);
+    transition: 0.3s;
+}
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  hr {
+    height: 2px;
+    background-color: brown;
+    border-color: brown;
+  }
+  
+  .bottom-line {
+    margin-top: 25px;
+  }
+  
+  h1, h2 {
+    font-family: Impact, serif;
+  }
+  
+  .item p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+  }
+  
+  .flavor, .dessert {
+    text-align: left;
+    width: 75%;
+  }
+  
+  .price {
+    text-align: right;
+    width: 25%;
+  }
+  
+  /* FOOTER */
+  
+  footer {
+    font-size: 14px;
+  }
+  
+  .address {
+    margin-bottom: 5px;
+  }
+  
+  a {
+    color: black;
+  }
+  
+  a:visited {
+    color: black;
+  }
+  
+  a:hover {
+    color: brown;
+  }
+  
+  a:active {
+    color: brown;
+  }
