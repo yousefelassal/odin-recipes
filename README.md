@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://github.com/yousefelassal/odin-recipes/blob/main/images/top%20logo.png?raw=true" width="300px" height="auto">
+<a href="https://theodinproject.com/"><img src="https://github.com/yousefelassal/odin-recipes/blob/main/images/top%20logo.png?raw=true" width="300px" height="auto"></a>
 <h1>Odin Recipes</h1>
 <p>basic html + css website showcasing my fav recipes</p>
 <p><a href="https://www.theodinproject.com/paths/foundations/courses/foundations">Foundation</a></p>
